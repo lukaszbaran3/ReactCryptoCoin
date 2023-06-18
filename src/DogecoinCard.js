@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './css/Change.css'
+import { Link } from 'react-router-dom';
 
 const DogecoinCard = () => {
   const [dogecoinData, setDogecoinData] = useState(null);
@@ -15,7 +16,7 @@ const DogecoinCard = () => {
 
         setDogecoinData(dogecoin);
       } catch (error) {
-        console.log('Error fetching Dogecoin data:', error);
+        console.log('Something went wrong:', error);
       }
     };
 
@@ -29,14 +30,18 @@ const DogecoinCard = () => {
   const iconUrl = `https://www.cryptocompare.com${dogecoinData.IMAGEURL}`;
 
   return (
-    <div>
+    <Link to='/dogecoin'>
+    <div className='dogecoin'>
       <img src={iconUrl} alt={dogecoinData.FROMSYMBOL} />
+      <div className='crypto-name'>
       <h2>Dogecoin</h2>
-      <p>{dogecoinData.PRICE}</p>
       <p className={ dogecoinData.CHANGEPCT24HOUR > 0 ? 'positive-change' : 'negative-change'}>
       {dogecoinData.CHANGEPCT24HOUR}%
       </p>
+      </div>
+      <p>{dogecoinData.PRICE}</p>
     </div>
+    </Link>
   );
 };
 

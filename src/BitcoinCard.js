@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './css/BitcoinCard.css';
 import './css/Change.css';
+import './css/CryptoCards.css';
+import './css/BitcoinCard.css';
 import { Link } from 'react-router-dom';
 
 const BitcoinCard = () => {
@@ -17,7 +18,7 @@ const BitcoinCard = () => {
 
         setBitcoinData(bitcoin);
       } catch (error) {
-        console.log('Error fetching Bitcoin data:', error);
+        console.log('Something went wrong', error);
       }
     };
 
@@ -31,15 +32,18 @@ const BitcoinCard = () => {
   const iconUrl = `https://www.cryptocompare.com${bitcoinData.IMAGEURL}`;
 
   return (
-    <div className='bitcoin'>
+    <Link to='bitcoin'>
+      <div className='bitcoin'>
       <img src={iconUrl} alt={bitcoinData.FROMSYMBOL} />
+      <div className='crypto-name'>
       <h2>Bitcoin</h2>
-      <p>{bitcoinData.PRICE}</p>
       <p className={ bitcoinData.CHANGEPCT24HOUR > 0 ? 'positive-change' : 'negative-change'} >
       {bitcoinData.CHANGEPCT24HOUR}%
       </p>
-      <Link to='/bitcoin'></Link>
-    </div>
+      </div>
+      <p>{bitcoinData.PRICE}</p>
+      </div>
+    </Link>
   );
 };
 

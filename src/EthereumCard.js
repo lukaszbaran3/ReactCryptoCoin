@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './css/Change.css'
+import './css/CryptoCards.css';
+import { Link } from 'react-router-dom';
+
 const EthereumCard = () => {
   const [ethereumData, setEthereumData] = useState(null);
 
@@ -14,7 +17,7 @@ const EthereumCard = () => {
 
         setEthereumData(ethereum);
       } catch (error) {
-        console.log('Error fetching Ethereum data:', error);
+        console.log('Something went wrong:', error);
       }
     };
 
@@ -28,14 +31,18 @@ const EthereumCard = () => {
   const iconUrl = `https://www.cryptocompare.com${ethereumData.IMAGEURL}`;
 
   return (
-    <div>
+    <Link to='ethereum'>
+    <div className='dogecoin'>
       <img src={iconUrl} alt={ethereumData.FROMSYMBOL} />
+      <div className='crypto-name'>
       <h2>Ethereum</h2>
-      <p>{ethereumData.PRICE}</p>
       <p className={ ethereumData.CHANGEPCT24HOUR > 0 ? 'positive-change' : 'negative-change'}>
       {ethereumData.CHANGEPCT24HOUR}%
       </p>
+      </div>
+      <p>{ethereumData.PRICE}</p>
     </div>
+    </Link>
   );
 };
 

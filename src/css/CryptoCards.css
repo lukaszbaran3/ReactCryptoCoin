@@ -1,7 +1,37 @@
 .cards{
     border: 1px solid black;
-    height: 200px;
+    height: 400px;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+}
+.cards img{
+    width: 250px;
+    height: 250px;
+}
+.cards h2{
+    font-size: 34px;
+    font-weight: 800;
+    padding-right: 10px;
+}
+.cards p{
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.cards a{
+    text-decoration: none;
+    color: inherit;
+}
+.crypto-name{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.bitcoin .ethereum .dogecoin{
+    cursor: pointer;
+    border: 1px solid white
 }

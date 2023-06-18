@@ -1,15 +1,16 @@
 import React from 'react'
 import './css/MainView.css'
 import CryptoCards from './CryptoCards'
+import Navbar from './Navbar'
 
 function MainView() {
   return (
     <>
-    <div className='title'>
+    <div id='home' className='title'>
     <h1 className='title-first'>TRACK AND TRADE</h1>
     <strong>CRYPTO CURRENCIES</strong>
-    </div>
     <CryptoCards />
+    </div>
     </>
   )
 }

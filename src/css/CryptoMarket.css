@@ -1,8 +1,9 @@
 .crypto-info-container {
-    background-color: #222;
+    background-color: black;
     color: #fff;
     padding: 20px;
-    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
   }
   .crypto-info-button:disabled {
     opacity: 0.5;

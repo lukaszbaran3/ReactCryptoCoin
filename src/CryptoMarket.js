@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './css/CryptoMarket.css';
 import './css/Change.css'
 import Pagination from './Pagination';
+
 const CryptoMarket = () => {
   const [cryptos, setCryptos] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -46,7 +47,7 @@ const CryptoMarket = () => {
       setSortOrder('asc');
     }
   };
-
+  console.log(cryptos)
   const sortedCryptos = [...cryptos].sort((a, b) => {
     if (sortColumn === 'name') {
       return sortOrder === 'asc'
@@ -73,7 +74,8 @@ const CryptoMarket = () => {
   });
 
   return (
-    <div className="crypto-info-container">
+    <div id="market"
+    className="crypto-info-container">
       <h1 className="crypto-info-title">Crypto Market Update</h1>
 
       <table className="crypto-info-table">
