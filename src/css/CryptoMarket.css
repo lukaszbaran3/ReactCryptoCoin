@@ -1,0 +1,13 @@
+.crypto-info-container {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin-top: 400px;
+  }
+  .crypto-info-button:disabled {
+    opacity: 0.5;
+  }
+.crypto-img{
+  width: 30px;
+  height: 30px;
+}
