@@ -1,0 +1,25 @@
+.crypto-page{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background: radial-gradient(circle, rgba(6,24,74,1) 61%, rgba(2,9,15,1) 100%);
+color: white;
+height: 100vh;
+}
+.crypto-page img{
+    width: 100px;
+    width: 100px;
+}
+.crypto-data{
+    display: flex;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.crypto-desciption{
+    max-width: 400px;
+    max-height: 400px;
+    overflow: auto;
+}

@@ -1,5 +1,4 @@
 .cards{
-    border: 1px solid black;
     height: 400px;
     width: 100%;
     display: flex;
@@ -33,5 +32,16 @@ align-items: center;
 }
 .bitcoin .ethereum .dogecoin{
     cursor: pointer;
-    border: 1px solid white
+}
+.bitcoin:hover {
+    scale: 1.1;
+    transition: 0.1s;
+}
+.ethereum:hover{
+    scale:  1.1;
+    transition: 0.1s;
+}
+.dogecoin:hover{
+    scale: 1.1;
+    transition: 0.1s;
 }

@@ -80,8 +80,9 @@ const CryptoMarket = () => {
 
       <table className="crypto-info-table">
         <thead>
-          <tr>
-            <th>Icon</th>
+          <tr className='table-titles'>
+            <th className='title-icon'>Icon
+            </th>
             <th>
               <button
                 className="crypto-info-button"

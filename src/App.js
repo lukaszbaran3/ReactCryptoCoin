@@ -13,6 +13,7 @@ import BitcoinPage from './BitcoinPage';
 import EthereumPage from './EthereumPage';
 import DogecoinPage from './DogecoinPage';
 import Navbar from './Navbar';
+import AboutUs from './AboutUs';
 
 
 
@@ -25,6 +26,7 @@ function App() {
     <>
     <MainView />
     <CryptoMarket />
+    <AboutUs />
     </>
     } />
       <Route path='/bitcoin' element={<BitcoinPage />} />

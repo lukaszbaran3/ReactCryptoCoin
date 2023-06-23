@@ -13,7 +13,7 @@ function Navbar() {
             <a href='#market'>Market</a>
         </li>
         <li>
-            <a href='#aboutUs'>About Us</a>
+            <a href='#about-us'>About Us</a>
         </li>
         <li>
             <a href='#contact'>Contact</a>
