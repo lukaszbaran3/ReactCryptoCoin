@@ -6,6 +6,7 @@ justify-content: center;
 background: radial-gradient(circle, rgba(6,24,74,1) 61%, rgba(2,9,15,1) 100%);
 color: white;
 height: 100vh;
+
 }
 .crypto-page img{
     width: 100px;
@@ -20,6 +21,7 @@ height: 100vh;
 }
 .crypto-desciption{
     max-width: 400px;
-    max-height: 400px;
+    max-height: 300px;
     overflow: auto;
+    line-height: 1.5;
 }

@@ -1,0 +1,40 @@
+.contact{
+    color: white;
+    height: 100vh;
+}
+
+.fa-brands{
+    color: white;
+    font-size: 48px;
+}
+.fa-brands:hover{
+   color: #69539d;
+   transition: color 0.3s ease-in-out;
+   cursor: pointer;
+}
+.contact-bottom{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+.contact h2{
+    padding-bottom: 20px;
+}
+.contact-icons{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-info{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+.contact-info p:hover{
+    color: #69539d;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}

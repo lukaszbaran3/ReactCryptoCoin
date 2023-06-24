@@ -27,7 +27,7 @@ const DodgecoinPage = () => {
       <div className='crypto-data'>
       <img src= 'https://www.cryptocompare.com/media/37746339/doge.png' alt="Dogecoin" />
       <div>Price: ${dogecoinData.RAW.DOGE.USD.PRICE}</div>
-      <div>24h Change: {dogecoinData.RAW.DOGE.USD.MKTCAP}</div>
+      <div>24h Change: {dogecoinData.RAW.DOGE.USD.CHANGEPCT24HOUR}%</div>
       <div>Symbol: DOGE</div>
       </div>
       <p className='crypto-desciption'>Bitcoin is a protocol which implements a public, permanent, and decentralized ledger. In order to add to the ledger, a user must prove they control an entry in the ledger. The protocol specifies that the entry indicates an amount of a token, bitcoin with a minuscule b. The user can update the ledger, assigning some of their bitcoin to another entry in the ledger. Because the token has characteristics of money, it can be thought of as a digital currency.

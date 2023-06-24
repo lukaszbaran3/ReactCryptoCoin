@@ -113,19 +113,19 @@ const CryptoMarket = () => {
             <th>
               <button
                 className="crypto-info-button"
-                onClick={() => handleSort('marketCap')}
+                onClick={() => handleSort('change')}
               >
-                Market Cap (USD) {sortColumn === 'marketCap' && sortOrder === 'asc' && '▲'}
-                {sortColumn === 'marketCap' && sortOrder === 'desc' && '▼'}
+                24h Change (%) {sortColumn === 'change' && sortOrder === 'asc' && '▲'}
+                {sortColumn === 'change' && sortOrder === 'desc' && '▼'}
               </button>
             </th>
             <th>
               <button
                 className="crypto-info-button"
-                onClick={() => handleSort('change')}
+                onClick={() => handleSort('marketCap')}
               >
-                24h Change (%) {sortColumn === 'change' && sortOrder === 'asc' && '▲'}
-                {sortColumn === 'change' && sortOrder === 'desc' && '▼'}
+                Market Cap (USD) {sortColumn === 'marketCap' && sortOrder === 'asc' && '▲'}
+                {sortColumn === 'marketCap' && sortOrder === 'desc' && '▼'}
               </button>
             </th>
           </tr>
@@ -144,12 +144,12 @@ const CryptoMarket = () => {
               <td>{crypto.CoinInfo.FullName}</td>
               <td>{crypto.CoinInfo.Name}</td>
               <td>{formatNumber(crypto.RAW.USD.PRICE)}</td>
-              <td>{formatNumber(crypto.RAW.USD.MKTCAP)}</td>
               <td className={
                 crypto.RAW.USD.CHANGEPCT24HOUR > 0
                   ? 'positive-change'
                   : 'negative-change'
               }>{formatNumber(crypto.RAW.USD.CHANGEPCT24HOUR)}</td>
+              <td>{formatNumber(crypto.RAW.USD.MKTCAP)}</td>
             </tr>
           ))}
         </tbody>

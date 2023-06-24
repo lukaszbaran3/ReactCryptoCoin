@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './css/Navbar.css';
 
 function Navbar() {
+  const [scrollDistance, setScrollDistance] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setScrollDistance(scrollTop);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className='navbar'>
+    <div className={scrollDistance > 500 ? 'scrolled navbar' : 'navbar'}>
       <a href='/'> <p>ReactCryptoCoin</p> </a>
       <ul>
         <li>

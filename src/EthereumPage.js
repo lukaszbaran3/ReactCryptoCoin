@@ -27,7 +27,7 @@ const EthereumPage = () => {
       <div className='crypto-data'>
       <img src= 'https://www.cryptocompare.com/media/37746238/eth.png' alt="Ethereum" />
       <div>Price: ${ethereumData.RAW.ETH.USD.PRICE}</div>
-      <div>24h Change: {ethereumData.RAW.ETH.USD.MKTCAP}</div>
+      <div>24h Change: {ethereumData.RAW.ETH.USD.CHANGEPCT24HOUR}%</div>
       <div>Symbol: ETH</div>
       </div>
       <p className='crypto-desciption'>Ethereum is a decentralized blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. Among cryptocurrencies, ether is second only to bitcoin in market capitalization. It is open-source software.
