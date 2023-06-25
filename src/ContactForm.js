@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import './css/ContactForm.css';
+import React, { useState } from "react";
+import "./css/ContactForm.css";
 
 const ContactForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
   const handleSubmit = (e) => {
@@ -16,10 +16,10 @@ const ContactForm = () => {
     setIsSubmitted(true);
 
     setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
     });
   };
 
@@ -32,7 +32,7 @@ const ContactForm = () => {
 
   return (
     <div className="form-container">
-    <h2>How can we help you?</h2>
+      <h2>How can we help you?</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -40,21 +40,21 @@ const ContactForm = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          />
+        />
         <input
           type="email"
           placeholder="E-mail"
           name="email"
           value={formData.email}
           onChange={handleChange}
-          />
+        />
         <input
           type="text"
           placeholder="Subject"
           name="subject"
           value={formData.subject}
           onChange={handleChange}
-          />
+        />
         <textarea
           placeholder="Text"
           name="message"
@@ -63,7 +63,9 @@ const ContactForm = () => {
         ></textarea>
         <button type="submit">Send</button>
       </form>
-      {isSubmitted && <div className="success-message">The form has been sent!</div>}
+      {isSubmitted && (
+        <div className="success-message">The form has been sent!</div>
+      )}
     </div>
   );
 };

@@ -1,58 +1,63 @@
-.about-us{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: 100vw;
+.about-us {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  margin-top: 100px;
 }
-.about-us h1{
-    font-size: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about-us h1 {
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.project-title{
-    font-weight: 800;
-    background-clip: text;
-    background-image: linear-gradient(25deg,#2600fc,#ff00ea);
-    color: transparent;
-    height: 54px;
+.project-title {
+  font-weight: 800;
+  background-clip: text;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  color: transparent;
+  height: 54px;
 }
-.about-us-columns{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
+.about-us-columns {
+  display: flex;
+  justify-content: space-evenly;
 }
-.about-us-columns p{
-    width: 250px;
-    height: 150px;
-    background-color: hsla(0,0%,100%,.05);
-    border: 1px solid hsla(0,0%,51%,.25);
-    border-radius: 30px;
-    transition: transform 1s linear;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
-    margin-top: 50px;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between;
-    gap:50px
+.about-us-columns p {
+  width: 250px;
+  height: 150px;
+  background-color: hsla(0, 0%, 100%, 0.05);
+  border: 1px solid hsla(0, 0%, 51%, 0.25);
+  border-radius: 30px;
+  transition: transform 1s linear;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  margin-top: 50px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  overflow: hidden;
 }
-.crypto-factory{
-    height: 600px;
-    width: 600px;
+.crypto-factory {
+  height: 600px;
+  width: 600px;
 }
-.material-symbols-outlined{
-    background: linear-gradient(90deg, rgba(50,34,89,1) 0%, rgba(113,91,167,1) 100%);
-    scale: 2;
-    color: white;
-    padding: 5px;
-    border-radius: 20%;
-    z-index: 0;
+.material-symbols-outlined {
+  background: linear-gradient(
+    90deg,
+    rgba(50, 34, 89, 1) 0%,
+    rgba(113, 91, 167, 1) 100%
+  );
+  scale: 2;
+  color: white;
+  padding: 5px;
+  border-radius: 20%;
+  z-index: 0;
 }
-.about-us-columns p:hover{
-    cursor: pointer;
-    border: 1px solid rgb(164, 129, 171);
+.about-us-columns p:hover {
+  cursor: pointer;
+  border: 1px solid rgb(164, 129, 171);
 }

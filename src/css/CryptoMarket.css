@@ -1,55 +1,54 @@
 .crypto-info-container {
-    color: #fff;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  .crypto-info-title{
-    font-size: 48px;
-    margin-bottom: 50px;
-    border-spacing: 0 3rem;
-  }
-  .crypto-info-table{
-    width: 90vw;
-    font-size: 24px;
-    height: 70vh;
-  }
-  .crypto-info-button:disabled {
-    opacity: 0.5;
-  }
-.crypto-img{
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.crypto-info-title {
+  font-size: 48px;
+  margin-bottom: 50px;
+  border-spacing: 0 3rem;
+}
+.crypto-info-table {
+  width: 90vw;
+  font-size: 24px;
+  height: 70vh;
+}
+.crypto-info-button:disabled {
+  opacity: 0.5;
+}
+.crypto-img {
   width: 35px;
   height: 35px;
 }
-thead{
+thead {
   height: 40px;
-
 }
-.crypto-info-button{
+.crypto-info-button {
   background-color: transparent;
   color: white;
   font-size: 28px;
   border: none;
   cursor: pointer;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   padding-bottom: 20px;
 }
-tbody tr{
+tbody tr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.332);
 }
-tbody tr:hover{
-  background: rgba(148,81,149,0.59492300338104);
+tbody tr:hover {
+  background: rgba(148, 81, 149, 0.59492300338104);
   cursor: pointer;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.table-titles th{
-text-align: left;
+.table-titles th {
+  text-align: left;
 }
-.title-icon{
+.title-icon {
   font-size: 28px;
   padding-bottom: 20px;
 }

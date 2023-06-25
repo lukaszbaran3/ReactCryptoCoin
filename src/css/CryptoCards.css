@@ -1,47 +1,46 @@
-.cards{
-    height: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    
+.cards {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.cards img{
-    width: 200px;
-    height: 200px;
+.cards img {
+  width: 200px;
+  height: 200px;
 }
-.cards h2{
-    font-size: 34px;
-    font-weight: 800;
-    padding-right: 10px;
+.cards h2 {
+  font-size: 34px;
+  font-weight: 800;
+  padding-right: 10px;
 }
-.cards p{
-    font-size: 32px;
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
+.cards p {
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
-.cards a{
-    text-decoration: none;
-    color: inherit;
+.cards a {
+  text-decoration: none;
+  color: inherit;
 }
-.crypto-name{
-display: flex;
-justify-content: center;
-align-items: center;
+.crypto-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.bitcoin .ethereum .dogecoin{
-    cursor: pointer;
+.bitcoin .ethereum .dogecoin {
+  cursor: pointer;
 }
 .bitcoin:hover {
-    scale: 1.1;
-    transition: 0.1s;
+  scale: 1.1;
+  transition: 0.1s;
 }
-.ethereum:hover{
-    scale:  1.1;
-    transition: 0.1s;
+.ethereum:hover {
+  scale: 1.1;
+  transition: 0.1s;
 }
-.dogecoin:hover{
-    scale: 1.1;
-    transition: 0.1s;
+.dogecoin:hover {
+  scale: 1.1;
+  transition: 0.1s;
 }

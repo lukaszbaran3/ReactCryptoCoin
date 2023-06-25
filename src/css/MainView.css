@@ -1,42 +1,42 @@
 @keyframes slide-top {
-    0% { 
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-30px);
-    }}
-.title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 48px;
-    font-weight: 800;
-    height: 100vh;
-    color: white;
-    
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 800;
+  height: 100vh;
+  color: white;
 }
 .title-first {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.title-first::before{
-content:'';
-display: flex;
-background-image: url(../image/bitcoin.png);
-background-size: cover;
-width: 60px;
-height: 60px;
-margin-right: 20px;
-animation: slide-top 2.2s linear infinite alternate;
+.title-first::before {
+  content: "";
+  display: flex;
+  background-image: url(../image/bitcoin.png);
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  animation: slide-top 2.2s linear infinite alternate;
 }
-.title-first::after{
-    content:'';
-    display: flex;
-    background-image: url(../image/ethereum.png);
-    background-size: cover;
-    width:60px ;
-    height: 60px;
-    margin-left: 20px;
-    animation: slide-top 2.2s linear infinite alternate;
-    }
+.title-first::after {
+  content: "";
+  display: flex;
+  background-image: url(../image/ethereum.png);
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+  animation: slide-top 2.2s linear infinite alternate;
+}
