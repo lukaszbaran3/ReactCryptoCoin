@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./css/CryptoChart.css";
+import moment from "moment";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -42,10 +43,13 @@ function CryptoChart({ coinId }) {
         const response = await fetch(
           `https://api.coinstats.app/public/v1/charts?period=1m&coinId=${coinName}`
         );
-        const data = await response.json();
-        console.log(data);
 
-        const time = data.chart.map((time) => time[0]);
+        const data = await response.json();
+
+        const time = data.chart.map((time) =>
+          moment.unix(time[0]).format("MM-DD")
+        );
+
         const price = data.chart.map((price) => price[1]);
 
         setChartData({

@@ -173,7 +173,7 @@ const CryptoMarket = () => {
               </tr>
               {isCryptoChartExpanded(crypto) && (
                 <tr>
-                  <td colSpan="6">
+                  <td className="expanded-chart" colSpan="6">
                     <CryptoChart coinId={crypto.CoinInfo.FullName} />
                   </td>
                 </tr>

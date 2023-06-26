@@ -52,3 +52,6 @@ tbody tr:hover {
   font-size: 28px;
   padding-bottom: 20px;
 }
+.expanded-chart:hover {
+  background-color: #06184a;
+}
