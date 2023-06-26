@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./css/Change.css";
-import "./css/CryptoCards.css";
+import "../css/Change.css";
+import "../css/CryptoCards.css";
 import { Link } from "react-router-dom";
 
 const EthereumCard = () => {

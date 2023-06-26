@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./css/CryptoPage.css";
+import "../css/CryptoPage.css";
 
 const DodgecoinPage = () => {
   const [dogecoinData, setDogecoinData] = useState(null);

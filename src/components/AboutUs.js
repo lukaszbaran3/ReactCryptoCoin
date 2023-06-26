@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/AboutUs.css";
+import "../css/AboutUs.css";
 function AboutUs() {
   return (
     <div id="about-us" className="about-us">
@@ -11,15 +11,15 @@ function AboutUs() {
       <div className="about-us-columns">
         <div className="first-column">
           <p>
-            <span class="material-symbols-outlined">apartment</span>
+            <span className="material-symbols-outlined">apartment</span>
             Dynamically developing company, gaining popularity on the market
           </p>
           <p>
-            <span class="material-symbols-outlined">manage_search</span>
+            <span className="material-symbols-outlined">manage_search</span>
             Discover, collect the right crypto collections to buy or sell.
           </p>
           <p>
-            <span class="material-symbols-outlined">
+            <span className="material-symbols-outlined">
               account_balance_wallet
             </span>
             Invest all your crypto at one place on one platform.
@@ -32,15 +32,15 @@ function AboutUs() {
         ></img>
         <div className="second-column">
           <p>
-            <span class="material-symbols-outlined">group</span>
+            <span className="material-symbols-outlined">group</span>
             More than 50,000 users have already trusted us
           </p>
           <p>
-            <span class="material-symbols-outlined">paid</span>
+            <span className="material-symbols-outlined">paid</span>
             Earn by selling your crypto on our marketplace.
           </p>
           <p>
-            <span class="material-symbols-outlined">folder_managed</span>
+            <span className="material-symbols-outlined">folder_managed</span>
             We make it easy to Discover, Invest and manage.
           </p>
         </div>

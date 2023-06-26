@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./css/CryptoChart.css";
+import "../css/CryptoChart.css";
 import moment from "moment";
 import {
   Chart as ChartJS,

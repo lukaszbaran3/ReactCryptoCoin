@@ -32,3 +32,6 @@
 .success-message {
   margin-top: 10px;
 }
+input textarea {
+  background-color: bisque;
+}

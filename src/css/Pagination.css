@@ -1,0 +1,15 @@
+.pagination {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  padding-top: 1%;
+}
+.crypto-info-button:hover .fa-chevron-right {
+  transform: translateX(10px);
+}
+.crypto-info-button:hover .fa-chevron-left {
+  transform: translateX(-10px);
+}
+.fa-solid {
+  transition: transform 0.3s;
+}

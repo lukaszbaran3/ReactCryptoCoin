@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "./css/CryptoMarket.css";
-import "./css/Change.css";
+import "../css/CryptoMarket.css";
+import "../css/Change.css";
 import Pagination from "./Pagination";
 import CryptoChart from "./CryptoChart";
 

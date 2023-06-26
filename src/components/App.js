@@ -1,14 +1,7 @@
-import {
-  Route,
-  Routes,
-  Link,
-  NavLink,
-  Outlet,
-  BrowserRouter,
-} from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import CryptoMarket from "./CryptoMarket";
 import MainView from "./MainView";
-import "./css/App.css";
+import "../css/App.css";
 import BitcoinPage from "./BitcoinPage";
 import EthereumPage from "./EthereumPage";
 import DogecoinPage from "./DogecoinPage";

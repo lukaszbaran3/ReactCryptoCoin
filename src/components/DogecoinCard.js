@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./css/Change.css";
+import "../css/Change.css";
 import { Link } from "react-router-dom";
 
 const DogecoinCard = () => {
