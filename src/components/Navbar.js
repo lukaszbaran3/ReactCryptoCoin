@@ -14,12 +14,12 @@ function Navbar() {
   }, []);
 
   return (
-    <div className={scrollDistance > 500 ? "scrolled navbar" : "navbar"}>
+    <div className={scrollDistance > 10 ? "scrolled navbar" : "navbar"}>
       <a href="/">
         {" "}
         <p>ReactCryptoCoin</p>{" "}
       </a>
-      <ul>
+      <ul className="menu-list">
         <li>
           <a href="#home">Home</a>
         </li>

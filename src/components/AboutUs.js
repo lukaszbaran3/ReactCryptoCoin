@@ -3,11 +3,13 @@ import "../css/AboutUs.css";
 function AboutUs() {
   return (
     <div id="about-us" className="about-us">
-      <h1>
-        {" "}
-        Explore endless possibilities with
-        <p className="project-title">ReactCryptoCoin</p>
-      </h1>
+      <div className="about-us-title">
+        <h1>
+          {" "}
+          Explore endless possibilities with
+          <p className="project-title">ReactCryptoCoin</p>
+        </h1>
+      </div>
       <div className="about-us-columns">
         <div className="first-column">
           <p>

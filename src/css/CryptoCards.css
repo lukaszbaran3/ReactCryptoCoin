@@ -44,3 +44,8 @@
   scale: 1.1;
   transition: 0.1s;
 }
+@media (max-width: 600px) {
+  .cards {
+    scale: 0.9;
+  }
+}

@@ -5,16 +5,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 93%;
 }
 .crypto-info-title {
-  font-size: 48px;
-  margin-bottom: 50px;
-  border-spacing: 0 3rem;
+  height: 11vh;
+  font-size: 3em;
+  margin-bottom: 5%;
+  display: flex;
+  align-items: flex-end;
 }
 .crypto-info-table {
   width: 90vw;
-  font-size: 24px;
+  font-size: 1.5em;
   height: 70vh;
 }
 .crypto-info-button:disabled {

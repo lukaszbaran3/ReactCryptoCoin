@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter, HashRouter } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import CryptoMarket from "./CryptoMarket";
 import MainView from "./MainView";
 import "../css/App.css";
@@ -8,11 +8,13 @@ import DogecoinPage from "./DogecoinPage";
 import Navbar from "./Navbar";
 import AboutUs from "./AboutUs";
 import Contact from "./Contact";
+import DropdownMenu from "./DropdownMenu";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
+      <DropdownMenu />
       <Routes>
         <Route
           path="/"
@@ -29,7 +31,7 @@ function App() {
         <Route path="/ethereum" element={<EthereumPage />} />
         <Route path="/dogecoin" element={<DogecoinPage />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

@@ -40,3 +40,20 @@
   margin-left: 20px;
   animation: slide-top 2.2s linear infinite alternate;
 }
+@media (max-width: 768px) {
+  .title {
+    height: 50vh;
+    margin-top: 10%;
+  }
+}
+@media (max-width: 600px) {
+  .title {
+    font: 1em;
+  }
+  .title img {
+    scale: 0.5;
+  }
+  .title-first {
+    scale: 0.7;
+  }
+}

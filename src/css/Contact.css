@@ -6,7 +6,7 @@
 
 .fa-brands {
   color: white;
-  font-size: 48px;
+  font-size: 3em;
 }
 .fa-brands:hover {
   color: #69539d;
@@ -18,10 +18,11 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  height: 50%;
+  height: 30%;
+  margin-top: 10%;
 }
 .contact h2 {
-  padding-bottom: 20px;
+  padding-bottom: 1em;
 }
 .contact-icons {
   width: 30%;
@@ -29,7 +30,7 @@
   justify-content: space-evenly;
 }
 .contact-info {
-  padding-top: 30px;
+  padding-top: 2em;
   display: flex;
   justify-content: space-evenly;
   width: 20vw;
@@ -38,4 +39,11 @@
   color: #69539d;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  .contact {
+    height: auto;
+    margin-bottom: 5%;
+    margin-top: -10%;
+  }
 }
