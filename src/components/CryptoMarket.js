@@ -145,11 +145,8 @@ const CryptoMarket = () => {
         </thead>
         <tbody>
           {sortedCryptos.map((crypto) => (
-            <>
-              <tr
-                key={crypto.CoinInfo.Id}
-                onClick={() => toggleCryptoChart(crypto)}
-              >
+            <React.Fragment key={crypto.CoinInfo.Id}>
+              <tr onClick={() => toggleCryptoChart(crypto)}>
                 <td>
                   <img
                     src={`https://cryptocompare.com${crypto.CoinInfo.ImageUrl}`}
@@ -178,7 +175,7 @@ const CryptoMarket = () => {
                   </td>
                 </tr>
               )}
-            </>
+            </React.Fragment>
           ))}
         </tbody>
       </table>

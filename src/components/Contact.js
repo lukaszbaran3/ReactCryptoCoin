@@ -9,10 +9,10 @@ function Contact() {
       <div className="contact-bottom">
         <h2>You can find us on:</h2>
         <div className="contact-icons">
-          <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-discord"></i>
+          <i className="fa-brands fa-youtube"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-facebook"></i>
+          <i className="fa-brands fa-discord"></i>
         </div>
         <div className="contact-info">
           <p>Privacy</p>
