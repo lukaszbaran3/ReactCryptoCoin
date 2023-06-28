@@ -24,7 +24,7 @@ ChartJS.register(
 
 function CryptoChart({ coinId }) {
   const [chartData, setChartData] = useState([]);
-  const [options, setOptions] = useState({
+  const options = {
     responsive: true,
     plugins: {
       legend: {
@@ -35,7 +35,7 @@ function CryptoChart({ coinId }) {
         text: "Chart.js Line Chart",
       },
     },
-  });
+  };
   const coinName = coinId.toLowerCase();
   useEffect(() => {
     const fetchCryptos = async () => {
@@ -68,7 +68,7 @@ function CryptoChart({ coinId }) {
       }
     };
     fetchCryptos();
-  }, []);
+  });
 
   return (
     <div className="chart">
