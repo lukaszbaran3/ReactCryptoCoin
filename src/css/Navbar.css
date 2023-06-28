@@ -24,16 +24,18 @@
   cursor: pointer;
 }
 .navbar p {
+  margin-top: 8%;
   padding-left: 20px;
   font-weight: 800;
   background-clip: text;
   background-image: linear-gradient(25deg, #2600fc, #ff00ea);
   color: transparent;
-  height: 30px;
+  height: 10vh;
   z-index: 2;
+  font-size: 1.6em;
 }
 .scrolled {
-  background-color: rgb(19, 15, 15);
+  background-color: #06184a;
   z-index: 1;
 }
 @media (max-width: 600px) {

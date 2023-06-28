@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../css/CryptoPage.css";
+import "../css/BackButton.css";
+import BackButton from "./BackButton";
 
 const BitcoinPage = () => {
   const [bitcoinData, setBitcoinData] = useState(null);
@@ -26,6 +28,7 @@ const BitcoinPage = () => {
   const dailyChange = bitcoinData.RAW.BTC.USD.CHANGEPCT24HOUR.toFixed(2);
   return (
     <div className="crypto-page">
+      <BackButton />
       <div className="crypto-image">
         <img
           src="https://www.cryptocompare.com/media/37746251/btc.png"

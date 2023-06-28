@@ -27,3 +27,6 @@
   font-size: 28px;
   margin-left: 10%;
 }
+.menu-list {
+  display: none;
+}

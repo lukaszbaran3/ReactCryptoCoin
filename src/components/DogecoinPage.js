@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../css/CryptoPage.css";
+import BackButton from "./BackButton";
 
 const DodgecoinPage = () => {
   const [dogecoinData, setDogecoinData] = useState(null);
@@ -26,6 +27,7 @@ const DodgecoinPage = () => {
   const dailyChange = dogecoinData.RAW.DOGE.USD.CHANGEPCT24HOUR.toFixed(2);
   return (
     <div className="crypto-page">
+      <BackButton />
       <div className="crypto-image">
         <img
           src="https://www.cryptocompare.com/media/37746339/doge.png"
