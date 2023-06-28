@@ -14,7 +14,7 @@ function Navbar() {
   }, []);
 
   return (
-    <div className={scrollDistance > 10 ? "scrolled navbar" : "navbar"}>
+    <div className={scrollDistance > 80 ? "scrolled navbar" : "navbar"}>
       <a href="/">
         {" "}
         <p>ReactCryptoCoin</p>{" "}
