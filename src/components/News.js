@@ -30,7 +30,7 @@ function News() {
             <li key={item.id}>
               <div className="single-news">
                 <h2 className="news-title">{item.title}</h2>
-                <img className="news-img" src={item.imgURL} alt="news image" />
+                <img className="news-img" src={item.imgURL} alt="news" />
                 <p className="news-description">{item.description}</p>
                 <div className="news-source">
                   <p>Source: {item.source}</p>
