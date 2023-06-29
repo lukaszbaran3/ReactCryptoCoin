@@ -10,12 +10,15 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    margin-top: 8%;
-    margin-left: 83%;
-    width: 17%;
+    margin-top: 15%;
+    margin-left: 75%;
     height: 25vh;
     background-color: #06184a;
     z-index: 2;
+    padding-right: 10%;
+  }
+  .menu-list li {
+    width: max-content;
   }
   .open-menu {
     position: fixed;
@@ -28,7 +31,6 @@
   }
   .menu-list a {
     text-decoration: none;
-    margin-right: 10px;
     color: white;
     font-size: 1.5em;
   }

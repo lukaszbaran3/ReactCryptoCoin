@@ -32,6 +32,9 @@ const SmallNavbar = () => {
           <a href="#about-us">About Us</a>
         </li>
         <li>
+          <a href="#news">News</a>
+        </li>
+        <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>

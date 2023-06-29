@@ -9,6 +9,7 @@ import Navbar from "./Navbar";
 import AboutUs from "./AboutUs";
 import Contact from "./Contact";
 import DropdownMenu from "./DropdownMenu";
+import News from "./News";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <MainView />
               <CryptoMarket />
               <AboutUs />
+              <News />
               <Contact />
             </>
           }
