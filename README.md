@@ -2,5 +2,4 @@
 
 Demo: https://main--reactcryptocoin.netlify.app
 
-ReactCryptoCoin CryptoTracker to prosta i intuicyjna aplikacja, która umożliwia śledzenie i monitorowanie różnych kryptowalut w czasie rzeczywistym. Dzięki niej użytkownicy mogą być na bieżąco z aktualnymi cenami, zmianami rynkowymi oraz trendami dotyczącymi różnych cyfrowych walut.
-Aplikacja dostarcza aktualne kursy dla różnych kryptowalut. Użytkownicy mogą przeglądać ceny, zmiany procentowe i wolumen obrotu dla poszczególnych walut. Ponadto, ReactCryptoCoin oferuje aktualizowane wykresy, które prezentują historię cen w czasie, umożliwiając użytkownikom analizę trendów i podejmowanie informowanych decyzji inwestycyjnych.
+ReactCryptoCoin CryptoTracker is a simple and intuitive application that allows you to track and monitor various cryptocurrencies in real time. Thanks to it, users can stay up to date with current prices, market changes and trends regarding various digital currencies. The application provides current rates for various cryptocurrencies. Users can view prices, percentage changes and trading volume for each currency. In addition, ReactCryptoCoin offers updated charts that show price history over time, allowing users to analyze trends and make informed investment decisions.
